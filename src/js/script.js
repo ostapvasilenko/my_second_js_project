@@ -95,6 +95,10 @@ const pos = fruits.indexOf('mulberry')
 const target = fruits[-2];
 
 console.log(`I like ${target}`);
-if (fruits <= 0 ) {
+if (target <= 0 ) {
   console.log(`POMYLKA!!!!`)
 } 
+
+let targets = fruits[8];
+const firstLetter = targets .toUpperCase
+targets = tar
