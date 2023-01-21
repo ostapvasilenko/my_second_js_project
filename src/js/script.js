@@ -91,14 +91,69 @@ let fruits = [
   "rambutan",
 ];
 
-const pos = fruits.indexOf('mulberry')
-const target = fruits[-2];
+// const pos = fruits.indexOf('mulberry')
+// const target = fruits[-2];
 
-console.log(`I like ${target}`);
-if (target <= 0 ) {
-  console.log(`POMYLKA!!!!`)
-} 
+// console.log(`I like ${target}`);
+// if (target <= 0 ) {
+//   console.log(`POMYLKA!!!!`)
+// } 
 
-let targets = fruits[8];
-const firstLetter = targets .toUpperCase
-targets = tar
+
+// let counter = fruits.length;
+// while (counter > 0){
+//   if (fruits[counter]){
+// console.log
+//   }
+//   console.log(fruits[counter]);
+//   counter--;
+// }
+// console.log(fruits)
+
+
+
+
+
+// let counter = 0;
+// fruits.forEach(function (item) {
+//   if (item[0] == "a") {
+//     console.log(item);
+//     counter++;
+//   }
+// });
+
+// console.log(counter)
+
+
+// let familyList = [
+//   {
+//     name: "John Doe",
+//     age: 25,
+//   },
+//   {
+//     name: "Jane Doe",
+//     age: 24,
+//   },
+//   {
+//     name: "Jack Doe",
+//     age: 18,
+//   },
+
+//   {
+//     name: "Janifer Doe",
+//     age: 14,
+//   },
+//   {
+//     name: "Sem Doe",
+//     age: 24,
+//   },
+// ];
+
+// familyList.forEach(function (item) {
+//   if (item.age > 21){
+//     console.log(item)
+//   }
+// })
+
+
+
