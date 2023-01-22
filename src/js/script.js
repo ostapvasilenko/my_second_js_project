@@ -159,35 +159,62 @@
 
 //Personal data of users
 
-const usersData = [
-  {
-      name: 'John',
-      age: 25,
-      surname: 'Doe',
-      fatherName: 'Smith'
-  },
-  {
-      name: 'Jane',
-      age: 30,
-      surname: 'Doe',
-      fatherName: 'Sarah'
-  },
-  {
-      name: 'Jack',
-      age: 28,
-      surname: 'Doe',
-      fatherName: 'John'
-  },
-  {
-      name: 'Jill',
-      age: 32,
-      surname: 'Doe',
-      fatherName: 'Monica'
-  }
-]
+// const usersData = [
+//   {
+//       name: 'John',
+//       age: 25,
+//       surname: 'Doe',
+//       fatherName: 'Smith'
+//   },
+//   {
+//       name: 'Jane',
+//       age: 30,
+//       surname: 'Doe',
+//       fatherName: 'Sarah'
+//   },
+//   {
+//       name: 'Jack',
+//       age: 28,
+//       surname: 'Doe',
+//       fatherName: 'John'
+//   },
+//   {
+//       name: 'Jill',
+//       age: 32,
+//       surname: 'Doe',
+//       fatherName: 'Monica'
+//   }
+// ]
 
+// // 1. Persinal data of users
+// const userData = [
+//   {
+//     name: "John",
+//     age: 25,
+//     surname: "Doe",
+//     fatherName: "Smith",
+//   },
+//   {
+//     name: "Jane",
+//     age: 30,
+//     surname: "Doe",
+//     fatherName: "Sarah",
+//   },
+//   {
+//     name: "Jack",
+//     age: 28,
+//     surname: "Doe",
+//     fatherName: "John",
+//   },
+//   {
+//     name: "Jill",
+//     age: 32,
+//     surname: "Doe",
+//     fatherName: "Monica",
+//   },
+// ];
 // 1. Persinal data of users
-const userData = [
+/*const USER_DATA = [
   {
     name: "John",
     age: 25,
@@ -216,20 +243,27 @@ const userData = [
 let counter = 0;
 
 function getInitialsUser(surname, name, fatherName) {
-    counter++;
-    if(counter <= 3){
-        return surname + " " + name[0] + "." + fatherName[0] + ".";
-    }else{
-        return "Functiom is called more than 3 times"
-    } 
+  counter++;
+  
+  if (counter <= 3) {
+    return surname + " " + name[0] + "." + fatherName[0] + ".";
+  } else {
+    return "Functiom is called more than 3 times";
+  }
 }
 
-function displayAlertInputText(text){
-    alert(text);
+const sayHello = (someText) => {
+    console.log(someText);
+};
+
+
+function displayAlertInputText(text) {
+  alert(text);
 }
 
+// Do something with data
 
-usersData.forEach((user) => {
+USER_DATA.forEach((user) => {
   const userInitials = getInitialsUser(
     user.surname,
     user.name,
@@ -239,11 +273,68 @@ usersData.forEach((user) => {
 });
 
 // Input data to diplay in alert
-const inputText = prompt("Enter text to display in alert");
-displayAlertInputText(inputText);
+// const inputText = prompt("Enter text to display in alert");
+// displayAlertInputText(inputText);
+
+sayHello("Hello World");*/
+
+
+const USER_DATA = [
+  {
+    name: "John",
+    age: 25,
+    surname: "Doe",
+    fatherName: "Smith",
+  },
+  {
+    name: "Jane",
+    age: 17,
+    surname: "Doe",
+    fatherName: "Sarah",
+  },
+  {
+    name: "Jack",
+    age: 28,
+    surname: "Doe",
+    fatherName: "John",
+  },
+  {
+    name: "Jill",
+    age: 32,
+    surname: "Doe",
+    fatherName: "Monica",
+  },
+];
+
+
+function userAge(age) {
+  if (age >= 18) {
+    return true
+  } else (age < 18)
+  return false
+}
+
+
+USER_DATA.forEach((user) => {
+  if (userAge(user.age)) {
+    console.log('povnolitniy', user.age)
+  } else {
+    console.log('nepovnolitniy', user.age)
+  }
+})
+
+
+let counter = 0;
+let counterNext = 0;
+USER_DATA.forEach(function (userAge) {
+  if (userAge[0] >= 18) {
+    counter++;
+    console.log('povnolitnix', counter);
+  } else{
+    counterNext++;
+    console.log('nepovnolitnix', counterNext)
+  }
+});
 
 
 
-
-
-                                                              
