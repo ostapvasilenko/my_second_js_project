@@ -946,7 +946,7 @@ const posts=[
     "body": "cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut"
   }
 ]
-let filteredPost =[]
+// let filteredPost =[]
 
 // posts.forEach((post) => {
 //   if (post.title[0].toLowerCase() ==='e'){
@@ -965,7 +965,13 @@ let filteredPost =[]
 
 // })
 
-console.log(filteredPost)
+// console.log(filteredPost)
+
+
+
+// Сортування
+
+
 
 
 
