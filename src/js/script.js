@@ -279,62 +279,62 @@ USER_DATA.forEach((user) => {
 sayHello("Hello World");*/
 
 
-const USER_DATA = [
-  {
-    name: "John",
-    age: 25,
-    surname: "Doe",
-    fatherName: "Smith",
-  },
-  {
-    name: "Jane",
-    age: 17,
-    surname: "Doe",
-    fatherName: "Sarah",
-  },
-  {
-    name: "Jack",
-    age: 28,
-    surname: "Doe",
-    fatherName: "John",
-  },
-  {
-    name: "Jill",
-    age: 32,
-    surname: "Doe",
-    fatherName: "Monica",
-  },
-];
+// const USER_DATA = [
+//   {
+//     name: "John",
+//     age: 25,
+//     surname: "Doe",
+//     fatherName: "Smith",
+//   },
+//   {
+//     name: "Jane",
+//     age: 17,
+//     surname: "Doe",
+//     fatherName: "Sarah",
+//   },
+//   {
+//     name: "Jack",
+//     age: 28,
+//     surname: "Doe",
+//     fatherName: "John",
+//   },
+//   {
+//     name: "Jill",
+//     age: 32,
+//     surname: "Doe",
+//     fatherName: "Monica",
+//   },
+// ];
 
 
-function userAge(age) {
-  if (age >= 18) {
-    return true
-  } else (age < 18)
-  return false
-}
+// function userAge(age) {
+//   if (age >= 18) {
+//     return true
+//   } else (age < 18)
+//   return false
+// }
 
 
-USER_DATA.forEach((user) => {
-  if (userAge(user.age)) {
-    console.log('povnolitniy', user.age)
-  } else {
-    console.log('nepovnolitniy', user.age)
-  }
-})
+// USER_DATA.forEach((user) => {
+//   if (userAge(user.age)) {
+//     console.log('povnolitniy', user.age)
+//   } else {
+//     console.log('nepovnolitniy', user.age)
+//   }
+// })
 
 
-let counter = 0;
-let counterNext = 0;
-USER_DATA.forEach(function (userAge) {
-  if (userAge[0] >= 18) {
-    counter++;
-    console.log('povnolitnix', counter);
-  } else{
-    counterNext++;
-    console.log('nepovnolitnix', counterNext)
-  }
-});
+// let counter = 0;
+// let counterNext = 0;
+// USER_DATA.forEach(function (userAge) {
+//   if (userAge[0] >= 18) {
+//     counter++;
+//     console.log('povnolitnix', counter);
+//   } else{
+//     counterNext++;
+//     console.log('nepovnolitnix', counterNext)
+//   }
+// });
 
 
 
