@@ -346,7 +346,7 @@ sayHello("Hello World");*/
 // Фільтрування
 
 
-const posts=[
+const posts = [
   {
     "userId": 1,
     "id": 1,
@@ -955,7 +955,7 @@ const posts=[
 //     console.log(post.title)
 //     filteredPost.push(post)
 //   }
-  
+
 // })
 // console.log(filteredPost)
 
@@ -973,9 +973,19 @@ const posts=[
 // Сортування
 
 
-let sortedPasts = posts.sort((a,b) => a.title.length - b.title.length);{
-  console.log(posts)
-}
+// let sortedPasts = posts.sort((a,b) => a.title.length - b.title.length);{
+//   console.log(posts)
+// }
+
+
+
+//  Оператор spreat
+
+const ageOne = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const ageTwo = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+const age = ageOne.concat(ageTwo); //склеювання даних (масиву)
+
+console.log(age)
 
 
 
