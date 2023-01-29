@@ -984,8 +984,10 @@ const posts = [
 const ageOne = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const ageTwo = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 const age = ageOne.concat(ageTwo); //склеювання даних (масиву)
+const age1 = [...ageOne,...ageTwo]; //склеювання даних (за допомогою оператора spreat)
 
 console.log(age)
+console.log(age1)
 
 
 
